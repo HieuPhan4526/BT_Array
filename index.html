@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="w-50">
+            <form>
+                <h2>Array</h2>
+
+                <div class="form-group w-50">
+
+                    <label for="">Nhập số n</label>
+                    <input type="number" class="form-control" id="num">
+                    <button onclick="themSo()" type="button" class="btn btn-primary">Thêm Số</button>
+                    <p id="txtThemSo" class="alert alert-primary"></p>
+
+
+
+
+                    <button onclick="tongSoDuong()" type="button" class="btn btn-primary">Tổng số dương</button>
+                    <p id="txtTongSoDuong" class="alert alert-primary"></p>
+
+
+                    <button onclick="demSo()" type="button" class="btn btn-primary">Đếm số dương</button>
+                    <p id="txtDemSoDuong" class="alert alert-primary"></p>
+
+                    <button onclick="soNhoNhat()" type="button" class="btn btn-primary">số nhỏ nhất</button>
+                    <p id="txtMin" class="alert alert-primary"></p>
+
+
+                    <button onclick="soDuongNhoNhat()" type="button" class="btn btn-primary">số Dương nhỏ nhất</button>
+                    <p id="txtMinDuong" class="alert alert-primary"></p>
+
+
+                    <button onclick="soChanCuoiCung()" type="button" class="btn btn-primary">Số chẵn cuối cùng</button>
+                    <p id="txtsoChanCuoiCung" class="alert alert-primary"></p>
+
+
+                    <label for="">Nhập vị trí 1</label>
+                    <input type="number" class="form-control" id="num1">
+                    <label for="">Nhập vị trí 2</label>
+                    <input type="number" class="form-control" id="num2">
+                    <button onclick="hoanDoiViTri()" type="button" class="btn btn-primary">Hoán đổi</button>
+                    <p id="txtHoanDoiViTri" class="alert alert-primary"></p>
+
+                    <button onclick="sapXepTangDan()" type="button" class="btn btn-primary">Sắp xếp tăng dần</button>
+                    <p id="txtsapXepTangDan" class="alert alert-primary"></p>
+
+                    <button onclick="timSoNguyenTo()" type="button" class="btn btn-primary">Tìm số nguyên tố</button>
+                    <p id="txtTimSoNguyenTo" class="alert alert-primary"></p>
+
+
+                    <button onclick="demSoNguyen()" type="button" class="btn btn-primary">Đếm số nguyên</button>
+                    <p id="txtDemSoNguyen" class="alert alert-primary"></p>
+
+                    
+                    <button onclick="soSanh()" type="button" class="btn btn-primary">So Sánh</button>
+                    <p id="txtSoSanh" class="alert alert-primary"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <script src="./js/baiTap_arr.js"></script>
+</body>
+
+</html>
